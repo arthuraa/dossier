@@ -8,3 +8,5 @@
 
 /enter EnterR GET POST
 /exit ExitR GET
+
+/timelines TimelinesR GET
