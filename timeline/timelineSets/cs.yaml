@@ -1,0 +1,113 @@
+%YAML:1.0
+name: Computer Science
+desc: Can you piece togther the timeline of computer science related historical events?
+cards:
+  -
+    event: "Alan Turing born"
+    year: 1912
+  -
+    event: "Alan Turing died"
+    year: 1943
+  -
+    event: "Ada language created"
+    year: 1980
+  -
+    event: "ENIAC short code"
+    year: 1946
+
+  -
+    event: "Fortran I implemented"
+    year: 1957
+
+  -
+    event: "LISP implemented"
+    year: 1959
+
+  -
+    event: "BASIC"
+    year: 1964
+
+  -
+    event: "Pascal"
+    year: 1970
+
+  -
+    event: "Smalltalk"
+    year: 1972
+
+  -
+    event: "C"
+    year: 1972
+
+  -
+    event: "ML"
+    year: 1973
+
+  -
+    event: "Scheme"
+    year: 1975
+
+  -
+    event: "Bourne shell (sh)"
+    year: 1977
+
+  -
+    event: "MATLAB"
+    year: 1978
+
+  -
+    event: "C++"
+    year: 1983
+
+  -
+    event: "Common LISP"
+    year: 1984
+
+  -
+    event: "LabVIEW"
+    year: 1986
+
+  -
+    event: "Objective-C"
+    year: 1986
+
+  -
+    event: "Perl"
+    year: 1987
+
+  -
+    event: "Haskell"
+    year: 1990
+
+  -
+    event: "Python"
+    year: 1991
+
+  -
+    event: "Brainfuck"
+    year: 1993
+
+  -
+    event: "Ca.a"
+    year: 1995
+
+  -
+    event: "Java"
+    year: 1995
+
+  -
+    event: "C#"
+    year: 2000
+
+  -
+    event: "Scala"
+    year: 2003
+
+  -
+    event: "Go"
+    year: 2009
+
+  -
+    event: "LOLCODE"
+    year: 2007
+
