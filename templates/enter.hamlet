@@ -1,0 +1,5 @@
+<h1>Login
+
+<form method=post action=@{EnterR} enctype=#{formEnctype}>
+  ^{formWidget}
+  <input type=submit value="Enter the room">
