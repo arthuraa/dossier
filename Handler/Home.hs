@@ -20,8 +20,3 @@ getHomeR = do
         setTitle "Welcome To Yesod!"
         $(widgetFile "homepage")
     Nothing -> redirect EnterR
-
-sampleForm :: Form (FileInfo, Text)
-sampleForm = renderDivs $ (,)
-    <$> fileAFormReq "Choose a file"
-    <*> areq textField "What's on the file?" Nothing
