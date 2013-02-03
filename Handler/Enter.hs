@@ -13,10 +13,11 @@ getEnterR = do
 postEnterR :: Handler RepHtml
 postEnterR = do
   ((result, _), _) <- runFormPost enterForm
-  let maybeUsername = case result of
-        FormSuccess user -> Just user
-        _ -> Nothing
-  redirect HomeR
+  case result of
+    FormSuccess username -> do
+      setSession "username" username
+      redirect HomeR
+    _ -> redirect EnterR
 
 enterForm :: Form Text
 enterForm = renderDivs $ areq textField "Username" Nothing
