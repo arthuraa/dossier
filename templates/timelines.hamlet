@@ -1,1 +1,5 @@
 <h1> Timelines
+
+<form method="post" action=@{TimelinesR} enctype=#{enctype}>
+  ^{widget}
+  <input type="submit" value="Submit timeline">
